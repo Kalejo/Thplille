@@ -15,7 +15,8 @@ thplille@gmail.com
 
 
 Pages Statiques.
-1. Les bases.
+<ul> 
+<li>1. Les bases.
 
     *Création d'une app rails avec rails new je-me-presente.
     *bundle installe*<br>
@@ -27,7 +28,8 @@ Pages Statiques.
     </ul>
     *créé un controller static_pages.
     *dans les routes, je mets la méthode home au root du programme, puis pareil pour contact et about à /contact et /about.
-
+</li></ul>
+<ul><li>
 2. Premières pages
 
 	*Liens de about vers: about/kalejo et /about/thplille.
@@ -51,7 +53,7 @@ Pages Statiques.
 	*les params dans la base.
  	*Redirection
 	*Nous allons donc rediriger l'utilisateur une fois le formulaire soumis.
-
-
+</li>
+</ul>
 
 PS: Pas de Pair-Programming pour moi parce que je suis tout seul sur ce projet.</p>
