@@ -37,7 +37,8 @@ Pages Statiques.
     *paramètres as: dans routes.rb.
     *création des méthodes dans le controller
     et dans les views.
-
+</li></ul>
+<ul><li>
 3.Faire un premier site avec backend
 
 	*La base de données
@@ -45,7 +46,7 @@ Pages Statiques.
     -Un username, qui est un string
     -Une bio, qui est un text
 
-3. Création d'utilisateur
+	*Création d'utilisateur
 
 	*Notre page d'accueil redirige bien vers creation_controller#user.
 	*Le formulaire username et la bio.
