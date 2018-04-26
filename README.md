@@ -1,7 +1,7 @@
 
 <h1>Decouverte_de_Rails</h1>
 <h2>Pages Statiques !!<br>
-@Kalejo
+@Kalejo<br>
 thplille@gmail.com
 </h2>
 
@@ -17,9 +17,14 @@ thplille@gmail.com
 Pages Statiques.
 1. Les bases.
 
-    *commence par créer une app rails avec rails new je-me-presente.
-    *bundle installe
-    *créer quelques pages statiques : home, contact, about.
+    *Création d'une app rails avec rails new je-me-presente.
+    *bundle installe*<br>
+    *créer quelques pages statiques: 
+    <ul>
+    	<li>home</li>
+    	<li>contact</li>
+    	<li>about</li>
+    </ul>
     *créé un controller static_pages.
     *dans les routes, je mets la méthode home au root du programme, puis pareil pour contact et about à /contact et /about.
 
