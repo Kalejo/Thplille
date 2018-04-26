@@ -1,6 +1,9 @@
 
 <h1>Decouverte_de_Rails</h1>
-<h2>Pages Statiques !!</h2>
+<h2>Pages Statiques !!<br>
+@Kalejo
+thplille@gmail.com
+</h2>
 
 
 
@@ -11,15 +14,39 @@
 <p>Le projet du jour : Pages Statiques
 
 
-Pages Statiques
+Pages Statiques.
+1. Les bases.
 
-    Nous allons te demander de faire une application simple, ce qui va te faire manipuler les liens, et les routes. Et vite fait le controller.
+    *commence par créer une app rails avec rails new je-me-presente.
+    *bundle installe
+    *créer quelques pages statiques : home, contact, about.
+    *créé un controller static_pages.
+    *dans les routes, je mets la méthode home au root du programme, puis pareil pour contact et about à /contact et /about.
 
-Note : le projet est à faire en pair-programming.
-Warning !!! Utilisation du bundle
-Credit
+2. Premières pages
 
-TP réalisés dans le cadre du THP https://www.thehackingproject.org, où il fait bon vivre, que les correcteurs sont trop mignons, trop forts et très sérieux dans leurs notations, et que le staff est tellement ... WAW !!! (et encore c'est peu dire...)</p>
+	*Liens de about vers: about/kalejo et /about/thplille.
+
+    *paramètres as: dans routes.rb.
+    *création des méthodes dans le controller
+    et dans les views.
+
+3.Faire un premier site avec backend
+
+	*La base de données
+	*model User. Ce model aura deux attributs :
+    -Un username, qui est un string
+    -Une bio, qui est un text
+
+3. Création d'utilisateur
+
+	*Notre page d'accueil redirige bien vers creation_controller#user.
+	*Le formulaire username et la bio.
+	*Les routes, le POST
+	*les params dans la base.
+ 	*Redirection
+	*Nous allons donc rediriger l'utilisateur une fois le formulaire soumis.
 
 
-PS: Pas de Pair-Programming pour moi parce que je suis tout seul sur ce projet.
+
+PS: Pas de Pair-Programming pour moi parce que je suis tout seul sur ce projet.</p>
